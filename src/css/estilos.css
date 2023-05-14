@@ -1,0 +1,213 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #96d9d6;
+    color: #333333;
+
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: rgb(6, 6, 85);
+}
+
+body .creditos {
+    height: 1000px;
+    width: 1000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+}
+
+header .logo,
+header .imagem-do-sol {
+    width: 60px;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-do-sol:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-pokemon-verde, .cartao-pokemon-vermelho ,.cartao-pokemon-azul,.cartao-pokemon-mostarda {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon-verde:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+main .cartao-pokemon-vermelho:hover {
+    background-color: #ee8130;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+main .cartao-pokemon-azul:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+main .cartao-pokemon-mostarda:hover {
+    background-color: #a6b91a;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+main .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: outset;
+}
+
+main .informacoes span {
+    padding: 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+main .gift {
+    width: 60px;
+    height: 60px;
+}
+
+main .tipos {
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+}
+
+
+main .titulo-pokemon-verde{
+    color: darkgreen;
+    background-color:gainsboro;
+  }
+      
+  main .titulo-pokemon-vermelho{
+      color: darkred;
+      background-color:gainsboro;
+    }
+      
+    main .titulo-pokemon-azul{
+      color: darkblue;
+      background-color:gainsboro;
+    }
+      
+    main .titulo-pokemon-mostarda{
+      color: darkolivegreen;
+      background-color:gainsboro;
+    }
+        
+    main .descricao{
+      width: 186px;
+      height: 190px;
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+      border-radius: 10px;
+      background: gainsboro;
+  
+    }
+
+    main .cartao-pokemon-verde{
+        border: 5px solid darkgreen;
+    }
+
+    main .cartao-pokemon-vermelho{
+        border: 5px solid darkred;
+    }
+
+    main .cartao-pokemon-azul{
+        border: 5px solid darkblue;
+    }
+
+    main .cartao-pokemon-mostarda{
+        border: 5px solid darkolivegreen;
+    }
+
+.tipo-grama {
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
+
+.veneno {
+    background-color: #df67ddfb;
+    border: 2px solid #df67ddfb;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
+
+.fogo {
+    background-color: #ee8130;
+    border: 2px solid #ee8130;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
+
+.agua {
+    background-color: #6390f0;
+    border: 2px solid #6390f0;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
+
+.Dragao {
+    background-color: palegoldenrod;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
+
+.inseto {
+    background-color: #a6b91a;
+    border: 2px solid #a6b91a;
+    border-radius: 10px;
+    padding: 4px;
+    border: outset;
+}
